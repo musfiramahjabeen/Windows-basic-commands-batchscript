@@ -12,113 +12,42 @@ Navigate to any Windows environment installed on the system or installed inside 
 
 ### Step 2:
 
-Write the Windows commands / batch file . Save each script in a file with a .bat extension. Ensure you have the necessary permissions to perform the operations. Adapt paths as needed based on your system configuration.
+Write the Windows commands / batch file
+Save each script in a file with a .bat extension.
+Ensure you have the necessary permissions to perform the operations.
+Adapt paths as needed based on your system configuration.
 ### Step 3:
 
 Execute the necessary commands/batch file for the desired output. 
 
-
-
-
 # WINDOWS COMMANDS:
 ## Exercise 1: Basic Directory and File Operations
-Create a directory named "my-folder"
-
+Create a directory named "MyLab" on the desktop.
 ## COMMAND AND OUTPUT
+![image](https://github.com/user-attachments/assets/06f41984-701c-41ea-87b2-4b6fd52426eb)
 
-Remove the directory "my-folder"
-
+Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
 ## COMMAND AND OUTPUT
+![image](https://github.com/user-attachments/assets/c6943725-7b59-4687-9347-649d0a9b4d5a)
 
-
-Create the file Rose.txt
-
+List the contents of the "MyLab" directory.
 ## COMMAND AND OUTPUT
+![image](https://github.com/user-attachments/assets/f3ffd697-1702-4ac2-839e-a3001af2bb3b)
 
-
-Create the file hello.txt using echo and redirection
-
+Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 ## COMMAND AND OUTPUT
+![image](https://github.com/user-attachments/assets/eec9b7da-8a39-4304-bc37-f3d13281c115)
 
-Copy the file hello.txt into the file hello1.txt
-
+Move the "MyLab" directory to the "Documents" folder.
 ## COMMAND AND OUTPUT
-
-Remove the file hello1.txt
-
-## COMMAND AND OUTPUT
-
-List out the file hello1.txt in the current directory
-
-## COMMAND AND OUTPUT
-
-List out all the associated file extensions 
-
-## COMMAND AND OUTPUT
-
-
-Compare the file hello.txt and rose.txt
-
-## COMMAND AND OUTPUT
+![image](https://github.com/user-attachments/assets/4928f80a-d3a3-47cd-8dc9-e71356c14928)
 
 ## Exercise 2: Advanced Batch Scripting
-Create a batch file named on the desktop. The batch file need to have a variable assigned with a desired name for ex. name="John" and display as "Hello, John".
-
-
-
-
+Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
 
 ## OUTPUT
-
-
-
-Create a batch file  on the desktop that checks whether a user-input number is odd or not. The script should:
-Prompt the user to enter a number.
-Calculate the remainder when the number is divided by 2.
-Display whether the number is odd or not.
-Ask the user if they want to check another number.
-Repeat the process if the user enters Y, and exit with a thank-you message if the user enters N.
-Handle invalid inputs for the continuation prompt (Y/N) gracefully.
-
-
-
-## OUTPUT
-
-
-
-
-Write a batch file that uses a FOR loop to iterate over a sequence of numbers (1 to 5) and displays each number with the label Number:. The output should pause at the end.
-
-
-
-
-## OUTPUT
-
-
-
-
-Write a batch script to check whether a file named sample.txt exists in the current directory. If the file exists, display the message sample.txt exists. Otherwise, display sample.txt does not exist. Pause the script at the end to view the result.
-
-Instructions:
-Use the IF EXIST conditional statement.
-Make sure the script works for files located in the same directory as the batch file.
-Use pause to keep the command window open after displaying the message.
-Expected Output (if the file exists):
-
-## OUTPUT
-
-
-Write a batch script that displays a simple menu with three options:
-Say Hello – Displays the message Hello, World!
-Create a File – Creates a file named newfile.txt with the content This is a new file
-Exit – Exits the script with a goodbye message
-The script should repeatedly display the menu until the user chooses to exit. Use goto statements to handle menu navigation.
-
-
-## OUTPUT
-
+![image](https://github.com/user-attachments/assets/0b34bc7d-0932-4f8c-8001-8f19803ee9a8)
 
 
 # RESULT:
 The commands/batch files are executed successfully.
-
